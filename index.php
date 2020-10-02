@@ -4,24 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tienda</title>
+    <link rel="stylesheet" href="styles.css"></li>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 <body>
 
  <header>
- <h1>TIENDA.COM</h1>
+ <h1>Tienda ScareFace</h1>
  <hr>
  </header>  
 
-<main>
+    <main class="fondo text-white">
+
 <div  class="container">
-<div class="row">
+<div class="row justify-conntent-center">
 <div class="col-4">
 <form action="">
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                <label for="exampleInputEmail1">Nombre</label>
+                <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp">
+                
+
+                <div class="form-group">
+                <label for="exampleInputEmail1">Apellidos</label>
+                <input type="text" class="form-control" id="Apellidos" aria-describedby="emailHelp">
+                
+
+                <div class="form-group">
+                <label for="exampleInputEmail1">Contraseña</label>
+                <input type="password" class="form-control" id="Contraseña" aria-describedby="emailHelp">
+
+                <div class="form-group">
+                <label for="exampleInputEmail1">E-mail</label>
+                <input type="text" class="form-control" id="E-mail" aria-describedby="emailHelp">
+
+                <div class="form-group">
+                <label for="exampleInputEmail1">Cedula</label>
+                <input type="number" class="form-control" id="Cedula" aria-describedby="emailHelp">
+
+                <div class="form-group">
+                <label for="exampleInputEmail1">Edad</label>
+                <input type="number" class="form-control" id="Edad" aria-describedby="emailHelp">
+
+                <div class="form-group">
+                <label for="exampleInputEmail1">Direccion</label>
+                <input type="text" class="form-control" id="Direccion" aria-describedby="emailHelp">  
+
+                <button type="submit" class="btn btn-primary btn-primary">Registrar</button>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+
+            </div>
+
             </div>
 </form>
     </div>
