@@ -19,38 +19,38 @@
 <div  class="container">
 <div class="row justify-conntent-center">
 <div class="col-4">
-<form action="">
+<form action="agregarDatos.php" method="POST"
             <div class="form-group">
                 <label for="exampleInputEmail1">Nombre</label>
-                <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp">
+                <input type="text" class="form-control" id="nombre" name="nombre">
                 
 
                 <div class="form-group">
                 <label for="exampleInputEmail1">Apellidos</label>
-                <input type="text" class="form-control" id="Apellidos" aria-describedby="emailHelp">
+                <input type="text" class="form-control" id="apellidos" name="apellido">
                 
 
                 <div class="form-group">
                 <label for="exampleInputEmail1">Contraseña</label>
-                <input type="password" class="form-control" id="Contraseña" aria-describedby="emailHelp">
+                <input type="password" class="form-control" id="contraseña " name="contraseña">
 
                 <div class="form-group">
                 <label for="exampleInputEmail1">E-mail</label>
-                <input type="text" class="form-control" id="E-mail" aria-describedby="emailHelp">
+                <input type="text" class="form-control" id="email" name="email">
 
                 <div class="form-group">
                 <label for="exampleInputEmail1">Cedula</label>
-                <input type="number" class="form-control" id="Cedula" aria-describedby="emailHelp">
+                <input type="number" class="form-control" id="cedula " name="cedula">
 
                 <div class="form-group">
                 <label for="exampleInputEmail1">Edad</label>
-                <input type="number" class="form-control" id="Edad" aria-describedby="emailHelp">
+                <input type="number" class="form-control" id="edad" name="edad">
 
                 <div class="form-group">
                 <label for="exampleInputEmail1">Direccion</label>
-                <input type="text" class="form-control" id="Direccion" aria-describedby="emailHelp">  
+                <input type="text" class="form-control" id="direccion " name="direccion"> 
 
-                <button type="submit" class="btn btn-primary btn-primary">Registrar</button>
+                <button type="submit" class="btn btn-primary btn-primary " name="boton">Registrar</button>
                 
 
                 
